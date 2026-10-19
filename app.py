@@ -2,7 +2,7 @@ def biaya(amount):
     if type(amount) is not int or amount < 0:
         raise ValueError("amount harus integer non-negatif")
 
-    return min(amount // 10, 5000)
+    return min(amount // 100, 5000)
 
 
 if __name__ == "__main__":
